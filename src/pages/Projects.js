@@ -1,75 +1,61 @@
 import '../sass/components/_projects.scss';
-import {Container, Row, Col, Card, Button, Breadcrumb} from 'react-bootstrap';
+import {Container, Row} from 'react-bootstrap';
+
+import MyBreadcrumb from '../components/MyBreadcrumb';
+import ProjectItem from '../components/projects/ProjectItem';
+
+const projects = [
+    {
+        id:1,
+        title: "Site Web entreprise - DJERA SERVICES SARL",
+        shortDesc: "Site internet d'une entreprise de maintenance des réseaux électriques, localisé en Côte d'Ivoire.",
+        img: { src:"https://picsum.photos/300/200?grayscale", alt:"screenshot"},
+        galery: [{ src:"https://picsum.photos/300/200?grayscale", alt:"screenshot"}],
+        technos:[
+            "Wordpress"
+        ]
+    },
+    {
+        id:2,
+        title: "Mon Eglise Catholique CI",
+        shortDesc: "Une application mobile mettant à dispositon des informations sur les Eglises Catholiques de Côte d'Ivoire.",
+        img: { src:"https://picsum.photos/300/200?grayscale", alt:"screenshot"},
+        galery: [{ src:"https://picsum.photos/300/200?grayscale", alt:"screenshot"}],
+        technos:[
+            "Laravel","Mysql","React Native", "FireBase"
+        ]
+    },
+    {
+        id:3,
+        title: "Dany a perdu ses dents",
+        shortDesc: "Un jeux réalisé en Python, où le joueur est amené à retrouver les dents de Dany dans du PopCorn.",
+        img: { src:"https://picsum.photos/300/200?grayscale", alt:"screenshot"},
+        galery: [{ src:"https://picsum.photos/300/200?grayscale", alt:"screenshot"}],
+        technos:[
+            "Python",
+        ]
+    },
+];
 
 const Projects = ()=>{
-
     return (
         <Container>
+            <MyBreadcrumb title="Mes projets"/>
             <Row>
-                <Col className="mt-5">
-                    <Card className="text-center">
-                        <Card.Body>
-                            <Card.Title> MES PROJETS </Card.Title>
-                            <Card.Text >
-                                <Breadcrumb >
-                                    <Breadcrumb.Item href="/">Accueil</Breadcrumb.Item>
-                                    {/* <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-                                        Library
-                                    </Breadcrumb.Item> */}
-                                    <Breadcrumb.Item active>Projets</Breadcrumb.Item>
-                                </Breadcrumb>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-            <Row>
-                <Col><hr/></Col>
-            </Row>
-            <Row>
-                <Col lg={4}>
-                    <Card>
-                        <Card.Img variant="top" src="https://picsum.photos/300/200?grayscale" />
-                        <Card.Body>
-                            <Card.Title>Projet 1</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
-                            </Card.Text>
-                            <a href="/project/1" className="btn btn-dark">En savoir plus</a>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg={4}>
-                    <Card>
-                        <Card.Img variant="top" src="https://picsum.photos/300/200?grayscale" />
-                        <Card.Body>
-                            <Card.Title>Projet 2</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
-                            </Card.Text>
-                            <a href="/project/2" className="btn btn-dark">En savoir plus</a>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col lg={4}>
-                    <Card>
-                        <Card.Img variant="top" src="https://picsum.photos/300/200?grayscale" />
-                        <Card.Body>
-                            <Card.Title>Projet 3</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk
-                                of the card's content.
-                            </Card.Text>
-                            <a href="/project/3" className="btn btn-dark">En savoir plus</a>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                {
+                    projects.map((data, index) => (
+                        <ProjectItem 
+                            key={index}
+                            id={data.id} 
+                            img={data.img} 
+                            title={data.title} 
+                            shortDesc={data.shortDesc}
+                        />
+                    ))
+                }
             </Row>
         </Container>
     )
-
 }
 
 export default Projects;
