@@ -53,7 +53,7 @@ const Cv = ()=>{
                 enterprise:{
                     name:"Djera Services SARL (Côte d'Ivoire)",
                     period:"2018 - 2021", 
-                    logo:"../images/logo/logo_ds.png",
+                    logo:"/images/logo/logo_ds.png",
                     siteUrl:"http://www.djera-services.com"
                 },
                 tasksItems:[
@@ -68,7 +68,7 @@ const Cv = ()=>{
                 enterprise:{
                     name:"Chambre de Commerce et d'Industrie de Côte d'Ivoire",
                     period:"2016 – 2017", 
-                    logo:"../images/logo/logo_.cci.jpeg",
+                    logo:"/images/logo/logo_cci.jpeg",
                     siteUrl:"http://www.cci-ci.com"
                 },
                 tasksItems:[
@@ -86,7 +86,7 @@ const Cv = ()=>{
             {
                 school:{
                     name:"INSTITUT DE L'INTERNET ET DU MULTIMEDIA (IIM) PARIS",
-                    logo:"../images/logo/logo_iim.png",
+                    logo:"/images/logo/logo_iim.png",
                     siteUrl:"http://www.iim.fr"
                 },
                 courses:[
@@ -99,7 +99,7 @@ const Cv = ()=>{
             {
                 school:{
                     name:"ECOLE PRATIQUE DE LA CHAMBRE DE COMMERCE ET D'INDUSTRIE DE CÔTE D'IVOIRE",
-                    logo:"../images/logo/logo_epcci.jpeg",
+                    logo:"/images/logo/logo_epcci.jpeg",
                     siteUrl:"https://www.epcci.edu.ci/"
                 },
                 courses:[
@@ -122,7 +122,7 @@ const Cv = ()=>{
             {
                 item:{
                     label:"Vainqueur du concours relatif à la conception du logo de la Conférence des Ordres des Architectes de l'UEMOA",
-                    img:"../images/logo/logo_coa.jpeg",
+                    img:"/images/logo/logo_coa.jpeg",
                     siteUrl:"https://cvp.bf/coa-uemoa/"
                 },
                 details:[

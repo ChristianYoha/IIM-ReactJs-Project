@@ -1,5 +1,5 @@
 import {Row, Col, Card, Image} from 'react-bootstrap';
-import profile_pic from '../../images/other/profile_pic.jpeg';
+import profile_pic from '../../img/profile_pic.jpeg';
 
 const Info = ({fullname, job, address, tel, mail, social})=>{
     return (

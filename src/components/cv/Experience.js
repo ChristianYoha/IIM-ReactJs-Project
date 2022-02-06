@@ -27,7 +27,7 @@ const Experience = ({experiencesData})=>{
                                             <p><strong>Outils:</strong> {data.tools}</p>
                                         </Col>
                                         <Col md="auto">
-                                            <Image src={data.enterprise.logo} rounded width={200} /><br />
+                                            <Image src={data.enterprise.logo} rounded width={150} /><br />
                                         </Col>
                                         <Col xs={12} className="text-end">
                                             <a href={data.enterprise.siteUrl} target="_blank" rel="noreferrer" className="btn btn-dark btn-sm">Voir l'entreprise</a>
