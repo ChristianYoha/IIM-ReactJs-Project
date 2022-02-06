@@ -1,12 +1,13 @@
 import {Col, Card} from 'react-bootstrap';
 const ProjectItem = ({id, title, img, shortDesc})=>{
 
+    //Script css pour un correct affichage des images dans le card
     const styles = {
         cardImage: {
           objectFit: 'contain',
         }
       }
-      
+    // Component - Un element projet
     return (
         <Col lg={4} md={6} className="mb-4 mx-auto">
             <Card>

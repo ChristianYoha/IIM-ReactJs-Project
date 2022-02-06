@@ -54,6 +54,7 @@ const projects = [
 const Projects = ()=>{
     return (
         <Container>
+            {/* Component - Pour gerer le titre de chaque page et lien de navigation rapide */}
             <MyBreadcrumb title="Mes projets"/>
             <Row>
                 {

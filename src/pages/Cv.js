@@ -139,7 +139,9 @@ const Cv = ()=>{
 
     return (
         <Container>
+            {/* Component - Pour gerer le titre de chaque page et lien de navigation rapide */}
             <MyBreadcrumb title="Mon CV"/>
+            {/* Component - Section Formation, prix et distinction du CV  */}
             <Info
                 fullname="Christian Yoha KONE"
                 job="Développeur Web FullStack"

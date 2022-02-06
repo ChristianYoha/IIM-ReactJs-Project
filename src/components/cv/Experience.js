@@ -2,10 +2,12 @@ import {Card, Row, Col, Image} from 'react-bootstrap';
 
 const Experience = ({experiencesData})=>{
     return (
+        // Component - Section Expériences du CV 
         <>
             {
                 experiencesData.experiencesContent.map((data, index) => (
                     <>
+
                         <Card key={index}>
                             <Card.Header as="h4">{data.job}</Card.Header>
                             <Card.Body>

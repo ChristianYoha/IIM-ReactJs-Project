@@ -54,6 +54,7 @@ const ProjectItemDetails = ({id, imgs, description, technos})=>{
     console.log(selctedProject);
     return (
         <>
+        {/* Component - Pour gerer le titre de chaque page et lien de navigation rapide */}
         <MyBreadcrumb title={selctedProject.title} previous="Mes projets" previousUrl="/projects" />
         <Row>
             <Col lg={7}>

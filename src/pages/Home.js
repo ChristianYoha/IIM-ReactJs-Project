@@ -6,6 +6,7 @@ import Welcome from '../components/home/Welcome';
 const Home = ()=>{
     return (
         <Container>
+            {/* Component - Présentation sur la page d'accueil */}
             <Welcome/>
         </Container>
     )

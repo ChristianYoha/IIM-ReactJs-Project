@@ -3,6 +3,8 @@ import profile_pic from '../../img/profile_pic.jpeg';
 
 const Info = ({fullname, job, address, tel, mail, social})=>{
     return (
+        
+        // Component - Section information du CV
         <Card>
             <Card.Body>
                 <Row>
