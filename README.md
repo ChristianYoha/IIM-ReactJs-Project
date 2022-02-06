@@ -72,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Netlify site 
 
-https://620050e99c2d6f9c30310f97--objective-pike-cf8f4f.netlify.app/
+https://6200524342d81bd7924ed826--objective-pike-cf8f4f.netlify.app/
