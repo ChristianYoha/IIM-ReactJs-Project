@@ -1,0 +1,214 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Site Web entreprise - DJERA SERVICES SARL",
+      "shortDesc": "Site internet d'une entreprise de maintenance des réseaux électriques, localisé en Côte d'Ivoire.",
+      "img": {
+        "src": "/images/other/ds1.png",
+        "alt": "screenshot"
+      },
+      "gallery": [
+        {
+          "src": "/images/other/ds1.png",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/ds2.png",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/ds3.png",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/ds4.png",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/ds5.png",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/ds6.png",
+          "alt": "screenshot"
+        }
+      ],
+      "technos": [
+        "Wordpress"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mon Eglise Catholique CI",
+      "shortDesc": "Une application mobile mettant à dispositon des informations sur les Eglises Catholiques de Côte d'Ivoire.",
+      "img": {
+        "src": "/images/other/church1.jpeg",
+        "alt": "screenshot"
+      },
+      "gallery": [
+        {
+          "src": "/images/other/church1.jpeg",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/church2.jpeg",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/church3.jpeg",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/church4.jpeg",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/church5.jpeg",
+          "alt": "screenshot"
+        },
+        {
+          "src": "/images/other/church6.jpeg",
+          "alt": "screenshot"
+        }
+      ],
+      "technos": [
+        "Laravel",
+        "Mysql",
+        "React Native",
+        "FireBase"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Dany a perdu ses dents",
+      "shortDesc": "Un jeux réalisé en Python, où le joueur est amené à retrouver les dents de Dany dans du PopCorn.",
+      "img": {
+        "src": "https://picsum.photos/300/200?grayscale",
+        "alt": "screenshot"
+      },
+      "gallery": [
+        {
+          "src": "https://picsum.photos/300/200?grayscale",
+          "alt": "screenshot"
+        }
+      ],
+      "technos": [
+        "Python"
+      ]
+    }
+  ],
+  "aboutData": {
+    "aboutText": "Titulaire d'une Licence professionnelle en Génie Logiciel, je dispose de 4 ans d'expérience dans le domaine du développement Web. Aujourd'hui, en année de Bachelor au sein de l'Institut de l'Internet et du Multimédia (IIM), dans l'axe Déveleoppement Web, je suis à la recherche d'un stade de fin d'étude.",
+    "aboutContent": [
+      {
+        "section": "Compétences",
+        "sectionItems": [
+          "PHP (Laravel), Python, JavaScript (VueJS, ReactJs, React Native, NodeJS), C# (ASP.NET MVC)",
+          "SQL server, MySQL, MongoDB, FireBase",
+          "Mac OS, Windows, Linux (Ubuntu, Debian), Git, Docker,",
+          "Git, Docker,",
+          "MS Office, MS Visual Studio, Visual Studio Code, Xcode, Android Studio, MS Azure (Cloud), Photoshop, Illustrator, XDesign"
+        ]
+      },
+      {
+        "section": "Langues",
+        "sectionItems": [
+          "Français (Professionnel)",
+          "Anglais (Academique)"
+        ]
+      },
+      {
+        "section": "Divers",
+        "sectionItems": [
+          "Permis de conduire B",
+          "Loisirs : Football, Natation, Lecture, Cuisine, Veille technologique."
+        ]
+      }
+    ]
+  },
+  "experiencesData": {
+    "experiencesContent": [
+      {
+        "job": "DEVELOPPEUR JUNIOR",
+        "enterprise": {
+          "name": "Djera Services SARL (Côte d'Ivoire)",
+          "period": "2018 - 2021",
+          "logo": "/images/logo/logo_ds.png",
+          "siteUrl": "http://www.djera-services.com"
+        },
+        "tasksItems": [
+          "Mise en place du site internet de l’entreprise",
+          "Mise en place d’un tableau de bord pour le suivi des performances de l’entreprise",
+          "Assistant support utilisateur"
+        ],
+        "tools": "Wordpress, PHP Laravel, Bootstrap, MySQL"
+      },
+      {
+        "job": "STAGIAIRE (CELLULE ETUDE ET DEVELOPPEMENT)",
+        "enterprise": {
+          "name": "Chambre de Commerce et d'Industrie de Côte d'Ivoire",
+          "period": "2016 – 2017",
+          "logo": "/images/logo/logo_cci.jpeg",
+          "siteUrl": "http://www.cci-ci.com"
+        },
+        "tasksItems": [
+          "Mise en place d’un système dématérialisé de traitement des fiches d’évaluation des évènements de la CCI",
+          "Mise en place d’un système de commande de factures normalisées en ligne (SECURIS 2) dans le cadre du Programme Nationale de Sécurisation des Factures (PNSF)"
+        ],
+        "tools": "ASP. NET MVC, Android Studio (Java), SQL Server, Bootstrap"
+      }
+    ]
+  },
+  "formationsData": {
+    "formationsContent": [
+      {
+        "school": {
+          "name": "INSTITUT DE L'INTERNET ET DU MULTIMEDIA (IIM) PARIS",
+          "logo": "/images/logo/logo_iim.png",
+          "siteUrl": "http://www.iim.fr"
+        },
+        "courses": [
+          {
+            "label": "Bachelor Développement Web",
+            "period": "En cours (3ème année) 2021/22"
+          }
+        ]
+      },
+      {
+        "school": {
+          "name": "ECOLE PRATIQUE DE LA CHAMBRE DE COMMERCE ET D'INDUSTRIE DE CÔTE D'IVOIRE",
+          "logo": "/images/logo/logo_epcci.jpeg",
+          "siteUrl": "https://www.epcci.edu.ci/"
+        },
+        "courses": [
+          {
+            "label": "Licence Professionnelle - Réseau et Génie Logicie",
+            "period": 2017
+          },
+          {
+            "label": "BTS - Informatique Développeur d'Application",
+            "period": 2016
+          }
+        ]
+      }
+    ]
+  },
+  "awardsData": {
+    "awardContent": [
+      {
+        "item": {
+          "label": "Vainqueur du concours relatif à la conception du logo de la Conférence des Ordres des Architectes de l'UEMOA",
+          "img": "/images/logo/logo_coa.jpeg",
+          "siteUrl": "https://cvp.bf/coa-uemoa/"
+        },
+        "details": [
+          {
+            "label": "Conception de logo",
+            "period": "2017"
+          }
+        ]
+      }
+    ]
+  }
+}

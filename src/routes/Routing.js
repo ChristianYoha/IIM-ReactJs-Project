@@ -23,7 +23,7 @@ const Routing = ()=>{
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home}/>
-                    <Route path="/projects" component={Projects}/>
+                    <Route path="/projects" component={Projects} />
                     <Route path="/project/:projectId" component={ProjectDetails}/>
                     <Route path="/cv" component={Cv}/>
                     <Route path="*" component={NoMatch}/>

@@ -3,7 +3,7 @@ import profile_pic from '../../img/profile_pic.jpeg';
 
 const Info = ({fullname, job, address, tel, mail, social})=>{
     return (
-        
+
         // Component - Section information du CV
         <Card>
             <Card.Body>
@@ -23,7 +23,9 @@ const Info = ({fullname, job, address, tel, mail, social})=>{
                                 <td> &nbsp;&nbsp;<strong>Mail:&nbsp;</strong>{mail}</td>
                             </tr>
                             <tr>
-                                <td colSpan="2">fcbk | lkdn | github</td>
+                                <td colSpan="2">
+                                    fcbk | lkdn | github
+                                </td>
                             </tr>
                         </table>
                     </Col>
